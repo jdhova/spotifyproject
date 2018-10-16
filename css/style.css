@@ -1,0 +1,124 @@
+
+body{
+	font-family: "open Sans", sans-serif;
+	margin: 0px;
+	font-weight: lighter;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+h3 {
+	font-size:30px;
+}
+
+ul{
+ list-style: none;
+ padding:0;
+}
+header{
+	height: 100px;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: blue;
+	font-size: 50px;
+}
+
+header img{
+	height: 75%;
+}
+
+.hero {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 768px;
+	height: calc(100vh-100px);
+	flex-direction: column;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	color:white;
+	font-size: 25px; 
+}
+
+.hero h1{
+	font-size: 80px;
+	margin-top: 0px;
+}
+
+.features{
+	text-align: center;
+}
+
+.features ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 7% 0%;
+
+}
+
+.features li{
+	width: 20%;
+}
+
+.features img{
+	width: 50%;
+}
+.features h3{
+	color: #00c76f;
+
+}
+
+ .features h2{
+ 	text-decoration-color: #00c76f;
+ }
+
+.kanye {
+	background-color:#00c76f;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	color: white;
+	margin:3%;
+	padding:5%;
+
+}
+
+.kanye img{
+	margin:7%,0%;
+	width: 30%;
+}
+
+.kanye img hover{
+	cursor: pointer;
+	position: absolute;
+	left:0;
+	right:0;
+}
+
+.kanye ul{
+	width: 50%;
+}
+
+
+
+
